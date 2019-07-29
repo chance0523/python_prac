@@ -8,3 +8,4 @@ while True:
 print("학생 이름:")
 for name in Names:
     print(name, end=",")
+    
