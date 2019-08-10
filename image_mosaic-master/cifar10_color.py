@@ -19,9 +19,9 @@ from sklearn.utils import shuffle
 # In[16]:
 
 
-#img_path = '01.jpg'
-img = cv2.imread('01.jpg')
-
+img_path = '01.jpg'
+img = cv2.imread("01.jpg", cv2.IMREAD_COLOR)
+cv2.imshow("1",img)
 img = cv2.resize(img, dsize=None, fx=0.2, fy=0.2)
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
